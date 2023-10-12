@@ -199,7 +199,7 @@ max-width: 496px;
     padding: 120px 0;
 }
 
-.sect-advantages-header {
+.visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
