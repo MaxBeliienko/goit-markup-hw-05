@@ -483,12 +483,15 @@
           <p class="footer-third-div-text footer-icons-text">Subscribe</p>
 
           <form name="footer-form" class="footer-form">
-            <input
-              type="email"
-              name="user-email"
-              class="footer-form-input"
-              placeholder="E-mail"
-            />
+            <label name="user-email" class="footer-form-label">
+              <input
+                type="email"
+                name="user-email"
+                class="footer-form-input"
+                placeholder="E-mail"
+              />
+            </label>
+
             <button type="submit" class="footer-form-button">
               Subscribe
               <svg
@@ -570,10 +573,10 @@
               name="user-privacy"
               id="user-privacy"
               value="true"
-              class="modal-checkbox-input"
+              class="modal-checkbox-input visually-hidden"
             />
             <label for="user-privacy" class="modal-label"
-              ><span class="modal-checkbox-span visually-hidden"
+              ><span class="modal-checkbox-span"
                 ><svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg> </span
