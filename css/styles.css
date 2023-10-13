@@ -736,6 +736,9 @@ max-width: 496px;
     gap: 8px;
 }
 
+.modal-checkbox-label {
+}
+
 .modal-checkbox-span {
     display: inline-flex;
     justify-content: center;
@@ -748,7 +751,7 @@ max-width: 496px;
     fill: transparent;
 }
 
-.modal-checkbox-input:checked .modal-label.modal-checkbox-span {
+.modal-checkbox-input:checked +.modal-label >.modal-checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
